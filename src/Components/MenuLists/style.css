@@ -1,0 +1,98 @@
+.menu:hover .list {
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    transition: .3s;
+}
+
+.list {
+    width: 100%;
+    background-color: rgb(19 19 20);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    height: 0px;
+    overflow: hidden;
+}
+
+.list ul:first-child {
+    width: 20%;
+    text-align: left;
+    margin-left: 13%;
+}
+
+.list ul{
+    text-align: left;
+    width: 15%;
+}
+
+.list ul:first-child li {
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: 13px;
+}
+
+.list ul:not(:first-child) li {
+    color: rgb(228, 228, 228);
+    padding: 0;
+    margin-top: 18px;
+    line-height: 7px;
+    font-weight: 600;
+}
+
+.list ul:not(:first-child) li:hover {
+    color: white;
+}
+
+.list span {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(134, 134, 139);
+}
+
+.list li {
+    list-style: none;
+    color: rgba(255, 255, 255, .8);
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 0;
+}
+
+.list li:hover {
+    color: white;
+}
+
+.list h6 {
+    color: white;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.list h6:first-of-type {
+    margin-top: 20px;
+}
+
+
+.watch,
+.airpods,
+.tv-home,
+.entertainment,
+.accessories{
+    margin-right: 60px;
+}
+
+
+
+

@@ -1,0 +1,65 @@
+.bag {
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    height: 0px;
+    overflow: hidden;
+}
+
+.bag.active {
+    height: 360px;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    transition: 0.3s;
+}
+
+.bag-content {
+    width: 73%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.bag-content h1 {
+    color: #d8d8d8;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.bag-content ul li{
+    padding-left: 0;
+    padding: 5px;
+    color: #949292;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.bag-content ul li:hover i {
+    color: #d8d8d8;
+}
+
+.bag-content h5{
+    margin-bottom: 30px;
+    color: rgba(171, 171, 171, 0.8);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.bag-content h5 a {
+    color: rgb(0, 105, 209) !important;
+    text-decoration: underline;
+}
+
+.bag-content p {
+    color: rgba(171, 171, 171, 0.8);
+    font-size: 12px;
+}
+
+.bag-content ul li i {
+    font-size: 10px;
+    margin-right: 5px;
+    color: #949292;
+}

@@ -1,0 +1,102 @@
+.section3{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.iPad{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://www.apple.com/v/home/be/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.vision{
+    width: 100%;
+    height: 90vh;
+    margin-left: 10px;
+    background-image: url("https://www.apple.com/v/home/be/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.iPad h2 {
+    font-size: 35px;
+    color: white;
+    margin-top: 80px;
+}
+
+.iPad p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+
+.iPad .link-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iPad .link-div a {
+    text-decoration: none; 
+    color: #267dce;
+    margin-left: 15px; 
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+
+.iPad .link-div a:hover {
+    text-decoration: underline; 
+}
+
+.vision h2{
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    margin-top: 400px;
+}
+
+.vision p:nth-of-type(1){
+    color: #000;
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.vision p:nth-of-type(2){
+    color: #4a4a4a;
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.vision a {
+    text-decoration: none; 
+    color: #267dce;
+    margin-left: 15px; 
+    margin-right: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.vision  a:hover {
+    text-decoration: underline; 
+}

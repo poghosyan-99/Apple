@@ -1,0 +1,44 @@
+.section1{
+    min-height: 89vh;
+    color: black;
+    background-image: url("https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.infoIphone15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+
+.infoIphone15 h2 {
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.infoIphone15 p {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.infoIphone15 .link-div a {
+    text-decoration: none; 
+    color: #267dce;
+    margin-right: 20px; 
+    font-size: 25px;
+}
+
+
+.infoIphone15 .link-div a:hover {
+    text-decoration: underline; 
+}
+

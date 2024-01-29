@@ -1,0 +1,59 @@
+.section2{
+    width: 100%;
+    min-height: 89vh;
+    background-image: url("https://www.apple.com/v/home/be/images/heroes/apple-watch-series-9/hero_apple_watch_series_9_order__d0fi9mb84dci_large.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.watch-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.watch-info .fa-apple{
+    font-size: 50px;
+    margin-right: 7px;
+}
+
+
+.watch-info h2 {
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 70px; 
+
+}
+
+.watch-info h3{
+    color: rgb(204, 29, 29);
+    font-size: 20px;
+    margin: 0;
+}
+
+.watch-info p {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+.watch-info .link-div a {
+    text-decoration: none; 
+    color: #267dce;
+    margin-right: 20px; 
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+
+.watch-info .link-div a:hover {
+    text-decoration: underline; 
+}
+
